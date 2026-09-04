@@ -4,7 +4,7 @@ region = "ap-south-1"
 }
 
 resource "aws_instance" "one" {
-  ami             = "ami-0ac7b260cf76d8865"
+  ami             = "ami-090d68841c2a28756"
   instance_type   = "t3.micro"
   key_name        = "key1"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -22,7 +22,7 @@ EOF
 }
 
 resource "aws_instance" "two" {
-  ami             = "ami-0ac7b260cf76d8865"
+  ami             = "ami-090d68841c2a28756"
   instance_type   = "t3.micro"
   key_name        = "key1"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -40,7 +40,7 @@ EOF
 }
 
 resource "aws_instance" "three" {
-  ami             = "ami-0ac7b260cf76d8865"
+  ami             = "ami-090d68841c2a28756"
   instance_type   = "t3.micro"
   key_name        = "key1"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -51,7 +51,7 @@ resource "aws_instance" "three" {
 }
 
 resource "aws_instance" "four" {
-  ami             = "ami-0ac7b260cf76d8865"
+  ami             = "ami-090d68841c2a28756"
   instance_type   = "t3.micro"
   key_name        = "key1"
   vpc_security_group_ids = [aws_security_group.five.id]
