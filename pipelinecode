@@ -7,11 +7,6 @@ pipeline {
     }
     
     stages {
-        stage('checkout') {
-            steps {
-                git 'https://github.com/sahuakshaya876-ux/terraform-project1.git'
-            }
-        }
         stage('init') {
             steps {
                 sh 'terraform init'
