@@ -86,7 +86,7 @@ resource "aws_security_group" "five" {
 }
 
 resource "aws_s3_bucket" "six" {
-  bucket = "terrajenkinsproject12345678934"
+  bucket = "terrajenkins12345678934"
 }
 
 resource "aws_iam_user" "seven" {
